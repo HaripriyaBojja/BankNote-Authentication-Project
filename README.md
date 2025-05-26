@@ -4,20 +4,26 @@ The need for a reliable system that would differentiate genuine banknotes from c
 
 Dataset Origin:
 
- Banknotes were scanned using an industrial-grade scanner to capture their fine details. Both authentic and forged banknotes were used for the study. The scanned images were analysed using wavelet transformation to extract statistical features. Wavelet transformation is a technique that decomposes a signal into components of different scales, making it easier to analyse complex structure like textures in images. For authenticating banknotes, the data is primarily extracted from datasets found in sources such as UCI Machine Learning Repository or Kaggle. It includes both genuine and counterfeit banknotes, represented by numerical features extracted from images of the banknotes.
+Banknotes were scanned using an industrial-grade scanner to capture their fine details. Both authentic and forged banknotes were used for the study. The scanned images were analysed using wavelet transformation to extract statistical features. Wavelet transformation is a technique that decomposes a signal into components of different scales, making it easier to analyse complex structure like textures in images. For authenticating banknotes, the data is primarily extracted from datasets found in sources such as UCI Machine Learning Repository or Kaggle. It includes both genuine and counterfeit banknotes, represented by numerical features extracted from images of the banknotes.
 
 Features (Independent Variables):
 
-Variance: It provides the variation of pixel intensity.
-Skewness: This represents the degree of asymmetry of the distribution of pixels.
-Curtosis: This quantifies the pixel distribution as to how sharp it is or whether it is flat.
-Entropy: It calculates the complexity or randomness of the image.
+•	Variance: It provides the variation of pixel intensity.
+
+•	Skewness: This represents the degree of asymmetry of the distribution of pixels.
+
+•	Curtosis: This quantifies the pixel distribution as to how sharp it is or whether it is flat.
+
+•	Entropy: It calculates the complexity or randomness of the image.
 
 Target (Dependent Variable): 
 
-Class: A binary variable indicating the type of banknote: 
-0: Genuine banknote. 
-1: Counterfeit banknote.
+•	Class: A binary variable indicating the type of banknote: 
+
+▪ 0: Genuine banknote. 
+
+▪ 1: Counterfeit banknote.
+
 
 Dataset Link:
 
