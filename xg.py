@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import xgboost as xgb
 import joblib
 from sklearn.metrics import accuracy_score, classification_report
-import cv2
 from scipy.stats import kurtosis, skew
 from skimage.measure import shannon_entropy
 import numpy as np
